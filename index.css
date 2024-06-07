@@ -1,0 +1,76 @@
+body {
+    background-image: url("station.jpg");
+    background-size: cover;
+    font-family: 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif,-apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative; /* To position the author name */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Optional: Add a background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px; /* Set max width */
+    margin:auto;
+    width: 100%; /* Ensure it doesn't shrink */
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #2c3e50; /* Dark blue for the title */
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5); 
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+button:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+#increment-btn {
+    background: #3498db; /* Light blue for the increment button */
+}
+
+#save-btn {
+    background: #2ecc71; /* Light green for the save button */
+}
+
+#save-el {
+    font-weight: bold;
+}
+
+.author-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 3px;
+}
